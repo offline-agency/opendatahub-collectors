@@ -1,9 +1,9 @@
 module opendatahub.com/mqttclient
 
-go 1.23.0
+go 1.24.0
 
 require (
-	github.com/eclipse/paho.mqtt.golang v1.5.0
+	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/noi-techpark/go-opendatahub-ingest v1.3.1
 	github.com/rabbitmq/amqp091-go v1.10.0
@@ -23,6 +23,6 @@ require (
 	github.com/ThreeDotsLabs/watermill v1.4.5
 	github.com/ThreeDotsLabs/watermill-amqp/v2 v2.1.3
 	github.com/gorilla/websocket v1.5.3 // indirect
-	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/net v0.44.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
 )
